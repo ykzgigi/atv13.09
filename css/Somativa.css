@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    border: 1px solid;
+    border-color: #c2c2c2;
+}
+
+td {
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.primeira {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid;
+    border-color: #99A1AA;
+    padding: 10px 30px;
+}
+
+a:hover {
+    background-color: #555C66;
+    color: #ffffff;
+}
+
+.red {
+    background-color: #E7516C;
+    color: #FFFFFF;
+}
+
+.red:hover {
+    background-color: #953244;
+    color: #FFFFFF;
+}
+
+.central {
+    background-color: #F5F7FA;
+}
+
+th {
+    padding: 15px 0;
+    color: #ffffff;
+}
+
+th:nth-child(1) {
+    color: #000;
+    background-color: #F2F2F2;
+}
+
+th:nth-child(2) {
+    background-color: #555C66;
+}
+
+th:nth-child(3) {
+    background-color: #E7516C;
+}
+
+th:nth-child(4) {
+    background-color: #70CF69;
+}
